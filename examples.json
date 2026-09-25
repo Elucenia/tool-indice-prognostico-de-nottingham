@@ -1,0 +1,108 @@
+[
+  {
+    "label": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+    "input": {
+      "tam": 1.5,
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "raw": {
+        "npi": 2.3
+      },
+      "main": "2,30",
+      "level": "low",
+      "verdict": "Excelente"
+    },
+    "originalInput": {
+      "tam": 1.5,
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+    "input": {
+      "tam": 2,
+      "lnd": "1",
+      "grau": "2"
+    },
+    "expected": {
+      "raw": {
+        "npi": 3.4
+      },
+      "level": "low",
+      "verdict": "Bom"
+    },
+    "originalInput": {
+      "tam": 2,
+      "lnd": "1",
+      "grau": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+    "input": {
+      "tam": 2,
+      "lnd": "2",
+      "grau": "2"
+    },
+    "expected": {
+      "raw": {
+        "npi": 4.4
+      },
+      "level": "mid",
+      "verdict": "Moderado I"
+    },
+    "originalInput": {
+      "tam": 2,
+      "lnd": "2",
+      "grau": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+    "input": {
+      "tam": 2.5,
+      "lnd": "2",
+      "grau": "3"
+    },
+    "expected": {
+      "raw": {
+        "npi": 5.5
+      },
+      "level": "high",
+      "verdict": "Ruim"
+    },
+    "originalInput": {
+      "tam": 2.5,
+      "lnd": "2",
+      "grau": "3"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+    "input": {
+      "tam": 3,
+      "lnd": "3",
+      "grau": "3"
+    },
+    "expected": {
+      "raw": {
+        "npi": 6.6
+      },
+      "level": "high",
+      "verdict": "Muito ruim"
+    },
+    "originalInput": {
+      "tam": 3,
+      "lnd": "3",
+      "grau": "3"
+    },
+    "expandedZeroOptions": []
+  }
+]
