@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-indice-prognostico-de-nottingham · Elucenia · https://github.com/Elucenia/tool-indice-prognostico-de-nottingham
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"indice-prognostico-de-nottingham","title":"Índice Prognóstico de Nottingham (NPI)","fields":[["tam","Maior diâmetro do tumor invasivo (patologia)","num",{"min":0.1,"max":20,"step":0.1,"unit":"cm","ph":"2,0"}],["lnd","Linfonodos axilares","radio",{"opts":{"1":"Negativos","2":"1 a 3 positivos","3":"4 ou mais positivos"}}],["grau","Grau histológico (Nottingham/Elston-Ellis)","radio",{"opts":{"1":"Grau 1","2":"Grau 2","3":"Grau 3"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
