@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-indice-prognostico-de-nottingham",
   "version": "0.1.0",
-  "description": "Índice Prognóstico de Nottingham (NPI) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Índice Prognóstico de Nottingham (NPI) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
