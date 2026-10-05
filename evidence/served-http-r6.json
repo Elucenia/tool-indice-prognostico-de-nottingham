@@ -1,0 +1,1067 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "indice-prognostico-de-nottingham",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/indice-prognostico-de-nottingham/calculator.js",
+    "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972",
+    "bytes": 5030
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 5,
+    "replayed": 5,
+    "passed": 5,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "indice-prognostico-de-nottingham",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+      "originalInput": {
+        "tam": 1.5,
+        "lnd": "1",
+        "grau": "1"
+      },
+      "input": {
+        "tam": 1.5,
+        "lnd": "1",
+        "grau": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "npi": 2.3
+        },
+        "main": "2,30",
+        "level": "low",
+        "verdict": "Excelente"
+      },
+      "recordedResult": {
+        "main": [
+          "2,30",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 2.3,
+          "grupo": "Excelente (EPG)"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tam": 1.5,
+            "lnd": "1",
+            "grau": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+          "startedAt": "2026-10-05T17:38:53.878Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-prognostico-de-nottingham",
+              "main": [
+                "2,30",
+                ""
+              ],
+              "label": "Índice Prognóstico de Nottingham",
+              "raw": {
+                "npi": 2.3,
+                "grupo": "Excelente (EPG)"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "10d0d8bbc751808e4335415155aa85abe0c557f4a94560c84be7e982e9e2dd70",
+          "bytes": 197,
+          "elapsedMs": 4.780699999973876
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "startedAt": "2026-10-05T17:38:53.878Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-prognostico-de-nottingham",
+            "main": [
+              "2,30",
+              ""
+            ],
+            "label": "Índice Prognóstico de Nottingham",
+            "raw": {
+              "npi": 2.3,
+              "grupo": "Excelente (EPG)"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "10d0d8bbc751808e4335415155aa85abe0c557f4a94560c84be7e982e9e2dd70",
+        "bytes": 197,
+        "elapsedMs": 4.780699999973876
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "2,30",
+            "obtained": "2,30",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.npi",
+            "expected": 2.3,
+            "obtained": 2.3,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.npi",
+            "expected": 2.3,
+            "obtained": 2.3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grupo",
+            "expected": "Excelente (EPG)",
+            "obtained": "Excelente (EPG)",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "2,30",
+            "obtained": "2,30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-prognostico-de-nottingham",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+      "originalInput": {
+        "tam": 2,
+        "lnd": "1",
+        "grau": "2"
+      },
+      "input": {
+        "tam": 2,
+        "lnd": "1",
+        "grau": "2"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "npi": 3.4
+        },
+        "level": "low",
+        "verdict": "Bom"
+      },
+      "recordedResult": {
+        "main": [
+          "3,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 3.4,
+          "grupo": "Bom (GPG)"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tam": 2,
+            "lnd": "1",
+            "grau": "2"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+          "startedAt": "2026-10-05T17:38:54.190Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-prognostico-de-nottingham",
+              "main": [
+                "3,40",
+                ""
+              ],
+              "label": "Índice Prognóstico de Nottingham",
+              "raw": {
+                "npi": 3.4,
+                "grupo": "Bom (GPG)"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "f78bd206e7cf3b8e0b4636248d34bf55704a17f610de4e695fb293b1dd726a00",
+          "bytes": 191,
+          "elapsedMs": 6.418999999994412
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "startedAt": "2026-10-05T17:38:54.190Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-prognostico-de-nottingham",
+            "main": [
+              "3,40",
+              ""
+            ],
+            "label": "Índice Prognóstico de Nottingham",
+            "raw": {
+              "npi": 3.4,
+              "grupo": "Bom (GPG)"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "f78bd206e7cf3b8e0b4636248d34bf55704a17f610de4e695fb293b1dd726a00",
+        "bytes": 191,
+        "elapsedMs": 6.418999999994412
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.npi",
+            "expected": 3.4,
+            "obtained": 3.4,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.npi",
+            "expected": 3.4,
+            "obtained": 3.4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grupo",
+            "expected": "Bom (GPG)",
+            "obtained": "Bom (GPG)",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "3,40",
+            "obtained": "3,40",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-prognostico-de-nottingham",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+      "originalInput": {
+        "tam": 2,
+        "lnd": "2",
+        "grau": "2"
+      },
+      "input": {
+        "tam": 2,
+        "lnd": "2",
+        "grau": "2"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "npi": 4.4
+        },
+        "level": "mid",
+        "verdict": "Moderado I"
+      },
+      "recordedResult": {
+        "main": [
+          "4,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 4.4,
+          "grupo": "Moderado I (MPG I)"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tam": 2,
+            "lnd": "2",
+            "grau": "2"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+          "startedAt": "2026-10-05T17:38:54.504Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-prognostico-de-nottingham",
+              "main": [
+                "4,40",
+                ""
+              ],
+              "label": "Índice Prognóstico de Nottingham",
+              "raw": {
+                "npi": 4.4,
+                "grupo": "Moderado I (MPG I)"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "2d4db126c035abb1d5506d7e5a9fbec5c2b6a423e8746795a1894c5d7545f6bb",
+          "bytes": 200,
+          "elapsedMs": 3.3435000000172295
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "startedAt": "2026-10-05T17:38:54.504Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-prognostico-de-nottingham",
+            "main": [
+              "4,40",
+              ""
+            ],
+            "label": "Índice Prognóstico de Nottingham",
+            "raw": {
+              "npi": 4.4,
+              "grupo": "Moderado I (MPG I)"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "2d4db126c035abb1d5506d7e5a9fbec5c2b6a423e8746795a1894c5d7545f6bb",
+        "bytes": 200,
+        "elapsedMs": 3.3435000000172295
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.npi",
+            "expected": 4.4,
+            "obtained": 4.4,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.npi",
+            "expected": 4.4,
+            "obtained": 4.4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grupo",
+            "expected": "Moderado I (MPG I)",
+            "obtained": "Moderado I (MPG I)",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "4,40",
+            "obtained": "4,40",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-prognostico-de-nottingham",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+      "originalInput": {
+        "tam": 2.5,
+        "lnd": "2",
+        "grau": "3"
+      },
+      "input": {
+        "tam": 2.5,
+        "lnd": "2",
+        "grau": "3"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "npi": 5.5
+        },
+        "level": "high",
+        "verdict": "Ruim"
+      },
+      "recordedResult": {
+        "main": [
+          "5,50",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 5.5,
+          "grupo": "Ruim (PPG)"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tam": 2.5,
+            "lnd": "2",
+            "grau": "3"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+          "startedAt": "2026-10-05T17:38:54.817Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-prognostico-de-nottingham",
+              "main": [
+                "5,50",
+                ""
+              ],
+              "label": "Índice Prognóstico de Nottingham",
+              "raw": {
+                "npi": 5.5,
+                "grupo": "Ruim (PPG)"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "e311f8f7281b4469c684fce482664496d417aaef3b1061a3081d5657e3efaee1",
+          "bytes": 192,
+          "elapsedMs": 3.2343999999866355
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "startedAt": "2026-10-05T17:38:54.817Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-prognostico-de-nottingham",
+            "main": [
+              "5,50",
+              ""
+            ],
+            "label": "Índice Prognóstico de Nottingham",
+            "raw": {
+              "npi": 5.5,
+              "grupo": "Ruim (PPG)"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "e311f8f7281b4469c684fce482664496d417aaef3b1061a3081d5657e3efaee1",
+        "bytes": 192,
+        "elapsedMs": 3.2343999999866355
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.npi",
+            "expected": 5.5,
+            "obtained": 5.5,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.npi",
+            "expected": 5.5,
+            "obtained": 5.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grupo",
+            "expected": "Ruim (PPG)",
+            "obtained": "Ruim (PPG)",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "5,50",
+            "obtained": "5,50",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-prognostico-de-nottingham",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+      "originalInput": {
+        "tam": 3,
+        "lnd": "3",
+        "grau": "3"
+      },
+      "input": {
+        "tam": 3,
+        "lnd": "3",
+        "grau": "3"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "npi": 6.6
+        },
+        "level": "high",
+        "verdict": "Muito ruim"
+      },
+      "recordedResult": {
+        "main": [
+          "6,60",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 6.6,
+          "grupo": "Muito ruim (VPG)"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "tam": 3,
+            "lnd": "3",
+            "grau": "3"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+          "startedAt": "2026-10-05T17:38:55.129Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-prognostico-de-nottingham",
+              "main": [
+                "6,60",
+                ""
+              ],
+              "label": "Índice Prognóstico de Nottingham",
+              "raw": {
+                "npi": 6.6,
+                "grupo": "Muito ruim (VPG)"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "05b6dba5f9c4334d6e9dffda447acda2b8abf0359592f46f1fca10c7be4b25d5",
+          "bytes": 198,
+          "elapsedMs": 2.630300000018906
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-prognostico-de-nottingham/calculate",
+        "startedAt": "2026-10-05T17:38:55.129Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-prognostico-de-nottingham",
+            "main": [
+              "6,60",
+              ""
+            ],
+            "label": "Índice Prognóstico de Nottingham",
+            "raw": {
+              "npi": 6.6,
+              "grupo": "Muito ruim (VPG)"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "05b6dba5f9c4334d6e9dffda447acda2b8abf0359592f46f1fca10c7be4b25d5",
+        "bytes": 198,
+        "elapsedMs": 2.630300000018906
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.npi",
+            "expected": 6.6,
+            "obtained": 6.6,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.npi",
+            "expected": 6.6,
+            "obtained": 6.6,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grupo",
+            "expected": "Muito ruim (VPG)",
+            "obtained": "Muito ruim (VPG)",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "6,60",
+            "obtained": "6,60",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
