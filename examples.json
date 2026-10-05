@@ -1,6 +1,14 @@
 [
   {
-    "label": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+    "id": "indice-prognostico-de-nottingham",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+    "originalInput": {
+      "tam": 1.5,
+      "lnd": "1",
+      "grau": "1"
+    },
     "input": {
       "tam": 1.5,
       "lnd": "1",
@@ -14,15 +22,36 @@
       "level": "low",
       "verdict": "Excelente"
     },
-    "originalInput": {
-      "tam": 1.5,
-      "lnd": "1",
-      "grau": "1"
+    "recordedResult": {
+      "main": [
+        "2,30",
+        ""
+      ],
+      "label": "Índice Prognóstico de Nottingham",
+      "raw": {
+        "npi": 2.3,
+        "grupo": "Excelente (EPG)"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+    "id": "indice-prognostico-de-nottingham",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+    "originalInput": {
+      "tam": 2,
+      "lnd": "1",
+      "grau": "2"
+    },
     "input": {
       "tam": 2,
       "lnd": "1",
@@ -35,15 +64,36 @@
       "level": "low",
       "verdict": "Bom"
     },
-    "originalInput": {
-      "tam": 2,
-      "lnd": "1",
-      "grau": "2"
+    "recordedResult": {
+      "main": [
+        "3,40",
+        ""
+      ],
+      "label": "Índice Prognóstico de Nottingham",
+      "raw": {
+        "npi": 3.4,
+        "grupo": "Bom (GPG)"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+    "id": "indice-prognostico-de-nottingham",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+    "originalInput": {
+      "tam": 2,
+      "lnd": "2",
+      "grau": "2"
+    },
     "input": {
       "tam": 2,
       "lnd": "2",
@@ -56,15 +106,36 @@
       "level": "mid",
       "verdict": "Moderado I"
     },
-    "originalInput": {
-      "tam": 2,
-      "lnd": "2",
-      "grau": "2"
+    "recordedResult": {
+      "main": [
+        "4,40",
+        ""
+      ],
+      "label": "Índice Prognóstico de Nottingham",
+      "raw": {
+        "npi": 4.4,
+        "grupo": "Moderado I (MPG I)"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+    "id": "indice-prognostico-de-nottingham",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+    "originalInput": {
+      "tam": 2.5,
+      "lnd": "2",
+      "grau": "3"
+    },
     "input": {
       "tam": 2.5,
       "lnd": "2",
@@ -77,15 +148,36 @@
       "level": "high",
       "verdict": "Ruim"
     },
-    "originalInput": {
-      "tam": 2.5,
-      "lnd": "2",
-      "grau": "3"
+    "recordedResult": {
+      "main": [
+        "5,50",
+        ""
+      ],
+      "label": "Índice Prognóstico de Nottingham",
+      "raw": {
+        "npi": 5.5,
+        "grupo": "Ruim (PPG)"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+    "id": "indice-prognostico-de-nottingham",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+    "originalInput": {
+      "tam": 3,
+      "lnd": "3",
+      "grau": "3"
+    },
     "input": {
       "tam": 3,
       "lnd": "3",
@@ -98,11 +190,24 @@
       "level": "high",
       "verdict": "Muito ruim"
     },
-    "originalInput": {
-      "tam": 3,
-      "lnd": "3",
-      "grau": "3"
+    "recordedResult": {
+      "main": [
+        "6,60",
+        ""
+      ],
+      "label": "Índice Prognóstico de Nottingham",
+      "raw": {
+        "npi": 6.6,
+        "grupo": "Muito ruim (VPG)"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

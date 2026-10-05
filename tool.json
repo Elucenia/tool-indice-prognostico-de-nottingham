@@ -3,15 +3,15 @@
     "id": "indice-prognostico-de-nottingham",
     "title": "Índice Prognóstico de Nottingham (NPI)",
     "short": "Prognóstico do câncer de mama operável",
+    "desc": "Calcule o Índice Prognóstico de Nottingham (NPI) do câncer de mama invasivo operável: tamanho do tumor, estado linfonodal e grau histológico, com o grupo prognóstico.",
+    "lead": "Estima o prognóstico do câncer de mama invasivo operável a partir do anatomopatológico da cirurgia: tamanho do tumor, linfonodos axilares e grau histológico.",
+    "kind": "Calculadora",
     "spec": [
       "mastologia",
       "oncologia-clinica",
       "cirurgia-oncologica",
       "patologia"
     ],
-    "tier": 1,
-    "desc": "Calcule o Índice Prognóstico de Nottingham (NPI) do câncer de mama invasivo operável: tamanho do tumor, estado linfonodal e grau histológico, com o grupo prognóstico.",
-    "lead": "Estima o prognóstico do câncer de mama invasivo operável a partir do anatomopatológico da cirurgia: tamanho do tumor, linfonodos axilares e grau histológico.",
     "fields": [
       [
         "tam",
@@ -51,43 +51,6 @@
       ]
     ],
     "formula": "<p><strong>NPI = 0,2 × tamanho (cm) + estágio linfonodal (1 a 3) + grau histológico (1 a 3).</strong></p><p>Estágio linfonodal: 1 = sem linfonodos comprometidos; 2 = 1 a 3 linfonodos; 3 = 4 ou mais (na descrição original, também o comprometimento do ápice axilar ou da mamária interna).</p>",
-    "table": [
-      [
-        "NPI",
-        "Grupo prognóstico (Blamey 2007)"
-      ],
-      [
-        "≤ 2,4",
-        "Excelente (EPG)"
-      ],
-      [
-        "2,41 a 3,4",
-        "Bom (GPG)"
-      ],
-      [
-        "3,41 a 4,4",
-        "Moderado I (MPG I)"
-      ],
-      [
-        "4,41 a 5,4",
-        "Moderado II (MPG II)"
-      ],
-      [
-        "5,41 a 6,4",
-        "Ruim (PPG)"
-      ],
-      [
-        "&gt; 6,4",
-        "Muito ruim (VPG)"
-      ]
-    ],
-    "table_note": "A classificação original (Galea 1992) usava três grupos: bom (≤ 3,4), moderado (3,41 a 5,4) e ruim (&gt; 5,4). Na coorte de Nottingham, a sobrevida câncer-específica em 10 anos subiu de 55% (1980-1986) para 77% (1990-1999).",
-    "tips": [
-      "Use o tamanho do componente invasivo medido na peça cirúrgica, não o da imagem, e o grau histológico de Nottingham (Elston-Ellis).",
-      "O NPI não inclui receptores hormonais, HER2 nem Ki-67: não o use sozinho para indicar terapia sistêmica; combine com o subtipo molecular (e, quando indicado, assinaturas genômicas).",
-      "Não se aplica após quimioterapia neoadjuvante, em que o tamanho e os linfonodos da peça já refletem a resposta ao tratamento.",
-      "As taxas de sobrevida por grupo variam muito entre coortes e épocas (tratamentos modernos melhoraram todos os grupos): use o NPI para comparar e estratificar, não como número exato para a paciente."
-    ],
     "sources": [
       [
         "Haybittle JL et al. A prognostic index in primary breast cancer. Br J Cancer, 1982.",
@@ -180,9 +143,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -191,17 +151,205 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:01:58.037Z",
+      "total": 108,
+      "passed": 108,
+      "evidencePath": "reports/review-20261003/four-linear-volume-source-oracles-final23.json",
+      "evidenceSha256": "7e5cc71340a2edf4506eee3a49c2c6fcc7a71cc73d2002cc57afdc928637ce5d",
+      "peerEvidencePath": "reports/review-20261003/independent-four-linear-volume-source-oracles-final23.json",
+      "peerEvidenceSha256": "aa29f261bf43be7f7f285898bce5ae671883847d5c3b9171793d372d1eecf31e",
+      "scope": "Arithmetic equation only, with source-version limits recorded. No approval of input clinical classification, thresholds, predictions, translations, rights or release.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2966633/",
+        "edition": "Primary prognostic model research2010, corroborating Haybittle1982 formula; original DOI10.1038/bjc.1982.62",
+        "locator": "Introduction states nodal stage+grade+0.2×size; article sample table lists centimetre tumour diameter",
+        "access": "2010 primary research formula statement read directly2026-10-04. Original1982 PMC retrieval returned browser check; publisher exposed abstract/subscription only. Tests check entered nodal/grade point addition and size coefficient, not pathologic staging selection, prognostic groups, survival probabilities or original full protocol."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "indice-prognostico-de-nottingham",
+          "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+        },
+        {
+          "app": "dashboard",
+          "id": "indice-prognostico-de-nottingham",
+          "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+        },
+        {
+          "app": "command-center",
+          "id": "indice-prognostico-de-nottingham",
+          "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "NPI/Haybittle 1982/Galea 1992:0,2 tamanhocm+estádio nodal 1–3+grau 1–3",
+    "implementationVersion": "indice-prognostico-de-nottingham@native-2026-10-03+130a3d085088",
+    "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2010939/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "NPI = 0,2 × tamanho (cm) + estágio linfonodal (1 a 3) + grau histológico (1 a 3). Estágio linfonodal: 1 = sem linfonodos comprometidos; 2 = 1 a 3 linfonodos; 3 = 4 ou mais (na descrição original, também o comprometimento do ápice axilar ou da mamária interna).",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "tam",
+            "label": "Maior diâmetro do tumor invasivo (patologia)",
+            "type": "num",
+            "min": 0.1,
+            "max": 20,
+            "unit": "cm",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "lnd",
+            "label": "Linfonodos axilares",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "Negativos",
+              "2": "1 a 3 positivos",
+              "3": "4 ou mais positivos"
+            }
+          },
+          {
+            "key": "grau",
+            "label": "Grau histológico (Nottingham/Elston-Ellis)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "Grau 1",
+              "2": "Grau 2",
+              "3": "Grau 3"
+            }
+          }
+        ],
+        "hash": "5829ce237ad4c011c3f441ec5b7c10538622619fc1c79d565ce8b26ebd714fde"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Haybittle JL et al. A prognostic index in primary breast cancer. Br J Cancer, 1982.",
+          "url": "https://doi.org/10.1038/bjc.1982.62",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A prognostic index in primary breast cancer.",
+            "year": "1982",
+            "firstPublicationDate": "1982-03-01",
+            "doi": "10.1038/bjc.1982.62",
+            "pmid": "7073932",
+            "pmcid": "PMC2010939",
+            "journal": "British journal of cancer",
+            "authors": "Haybittle JL, Blamey RW, Elston CW, Johnson J, Doyle PJ, Campbell FC, Nicholson RI, Griffiths K."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2010939/",
+          "abstractAvailable": true,
+          "fullTextSha256": "24e9f6a578208756d63d462976571818d58a0ce2a48e6bc67848fdfd20764cec",
+          "abstractSha256": "5093c439467e1b65bfd3029f73c1bb9616b15de6d19c23ab18e766be8f3dbfc1",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Galea MH et al. The Nottingham prognostic index in primary breast cancer. Breast Cancer Res Treat, 1992.",
+          "url": "https://doi.org/10.1007/BF01840834",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The Nottingham Prognostic Index in primary breast cancer.",
+            "year": "1992",
+            "firstPublicationDate": "1992-01-01",
+            "doi": "10.1007/bf01840834",
+            "pmid": "1391987",
+            "journal": "Breast cancer research and treatment",
+            "authors": "Galea MH, Blamey RW, Elston CE, Ellis IO."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/1391987/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "514f9df220ed2887f2e9598dba32d8c84eb62a9c3507eda6983800ce9d8d584a",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Blamey RW et al. Survival of invasive breast cancer according to the Nottingham Prognostic Index in cases diagnosed in 1990-1999. Eur J Cancer, 2007.",
+          "url": "https://doi.org/10.1016/j.ejca.2007.01.016",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Survival of invasive breast cancer according to the Nottingham Prognostic Index in cases diagnosed in 1990-1999.",
+            "year": "2007",
+            "firstPublicationDate": "2007-02-26",
+            "doi": "10.1016/j.ejca.2007.01.016",
+            "pmid": "17321736",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "authors": "Blamey RW, Ellis IO, Pinder SE, Lee AH, Macmillan RD, Morgan DA, Robertson JF, Mitchell MJ, Ball GR, Haybittle JL, Elston CW."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/17321736/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "2fa667db335d3970a4067183e49f48a7bc0083b8ae97676480a8961eb901f0cf",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:01:58.037Z",
+        "total": 108,
+        "passed": 108,
+        "evidencePath": "reports/review-20261003/four-linear-volume-source-oracles-final23.json",
+        "scope": "Arithmetic equation only, with source-version limits recorded. No approval of input clinical classification, thresholds, predictions, translations, rights or release.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "15ff9f2d4bdc9fc9f8b1618db4f499517241be3020cd24c631617912f61fcc14"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+    },
+    "limits": "O NPI relaciona características anatomopatológicas do câncer primário de mama ao prognóstico. A soma requer estádio nodal e grau corretamente definidos; não determina tratamento atual nem garante sobrevivência individual. Fórmula, grupos e taxas devem corresponder à edição e à população utilizadas.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.052Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não confirma coeficiente 0,2, grupos/cortes ou prognósticos percentuais. Coortes Galea 1992 e Blamey 2007 precisam de leitura própria."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/indice-prognostico-de-nottingham/calculator.js",
+    "bytes": 5030,
+    "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "9ee04b1abb61ca1b2dfb876d3d9202161ac7e18a35aa72a920dc93cd2f47e756",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 108,
+      "sha256": "9eab8ae3d638616eeb32196e03bc876c77e3dbc96b95c8ed354687706a3b9ea7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

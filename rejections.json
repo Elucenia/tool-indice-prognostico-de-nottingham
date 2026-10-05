@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field tam",
+    "input": {
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field tam",
+    "input": {
+      "tam": "",
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" tam",
+    "input": {
+      "tam": "NaN",
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" tam",
+    "input": {
+      "tam": "Infinity",
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" tam",
+    "input": {
+      "tam": "1e309",
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" tam",
+    "input": {
+      "tam": "invalid",
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} tam",
+    "input": {
+      "tam": {},
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true tam",
+    "input": {
+      "tam": true,
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum tam",
+    "input": {
+      "tam": -0.9,
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum tam",
+    "input": {
+      "tam": 22,
+      "lnd": "1",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tam"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field lnd",
+    "input": {
+      "tam": 1.5,
+      "grau": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "lnd"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field lnd",
+    "input": {
+      "tam": 1.5,
+      "lnd": "",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "lnd"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option lnd",
+    "input": {
+      "tam": 1.5,
+      "lnd": "__ELUCENIA_INVALID_OPTION__",
+      "grau": "1"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "lnd"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field grau",
+    "input": {
+      "tam": 1.5,
+      "lnd": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "grau"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field grau",
+    "input": {
+      "tam": 1.5,
+      "lnd": "1",
+      "grau": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "grau"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option grau",
+    "input": {
+      "tam": 1.5,
+      "lnd": "1",
+      "grau": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "grau"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]

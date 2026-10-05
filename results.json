@@ -1,0 +1,489 @@
+{
+  "id": "indice-prognostico-de-nottingham",
+  "at": "2026-10-05T17:29:51.617Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/indice-prognostico-de-nottingham/calculator.js",
+    "bytes": 5030,
+    "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+  },
+  "cases": [
+    {
+      "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+      "input": {
+        "tam": 1.5,
+        "lnd": "1",
+        "grau": "1"
+      },
+      "obtained": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "2,30",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 2.3,
+          "grupo": "Excelente (EPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.main",
+          "expected": "2,30",
+          "obtained": "2,30",
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.npi",
+          "expected": 2.3,
+          "obtained": 2.3,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.npi",
+          "expected": 2.3,
+          "obtained": 2.3,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grupo",
+          "expected": "Excelente (EPG)",
+          "obtained": "Excelente (EPG)",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "2,30",
+          "obtained": "2,30",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+      "input": {
+        "tam": 2,
+        "lnd": "1",
+        "grau": "2"
+      },
+      "obtained": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "3,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 3.4,
+          "grupo": "Bom (GPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.npi",
+          "expected": 3.4,
+          "obtained": 3.4,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.npi",
+          "expected": 3.4,
+          "obtained": 3.4,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grupo",
+          "expected": "Bom (GPG)",
+          "obtained": "Bom (GPG)",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "3,40",
+          "obtained": "3,40",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+      "input": {
+        "tam": 2,
+        "lnd": "2",
+        "grau": "2"
+      },
+      "obtained": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "4,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 4.4,
+          "grupo": "Moderado I (MPG I)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.npi",
+          "expected": 4.4,
+          "obtained": 4.4,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.npi",
+          "expected": 4.4,
+          "obtained": 4.4,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grupo",
+          "expected": "Moderado I (MPG I)",
+          "obtained": "Moderado I (MPG I)",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "4,40",
+          "obtained": "4,40",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+      "input": {
+        "tam": 2.5,
+        "lnd": "2",
+        "grau": "3"
+      },
+      "obtained": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "5,50",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 5.5,
+          "grupo": "Ruim (PPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.npi",
+          "expected": 5.5,
+          "obtained": 5.5,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.npi",
+          "expected": 5.5,
+          "obtained": 5.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grupo",
+          "expected": "Ruim (PPG)",
+          "obtained": "Ruim (PPG)",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "5,50",
+          "obtained": "5,50",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+      "input": {
+        "tam": 3,
+        "lnd": "3",
+        "grau": "3"
+      },
+      "obtained": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "6,60",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 6.6,
+          "grupo": "Muito ruim (VPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.npi",
+          "expected": 6.6,
+          "obtained": 6.6,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.npi",
+          "expected": 6.6,
+          "obtained": 6.6,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grupo",
+          "expected": "Muito ruim (VPG)",
+          "obtained": "Muito ruim (VPG)",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "6,60",
+          "obtained": "6,60",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 20,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}
