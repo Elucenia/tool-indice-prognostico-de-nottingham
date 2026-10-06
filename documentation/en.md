@@ -79,3 +79,62 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Prognostic group: Excellent (EPG)
+
+| Result details | |
+| --- | --- |
+| Size (0.2 × cm) | 0.30 |
+| Lymph nodes | 1 |
+| Histological grade | 1 |
+
+
+### 2
+
+Prognostic group: Good (GPG)
+
+| Result details | |
+| --- | --- |
+| Size (0.2 × cm) | 0.40 |
+| Lymph nodes | 1 |
+| Histological grade | 2 |
+
+
+### 3
+
+Prognostic group: Moderate I (MPG I)
+
+| Result details | |
+| --- | --- |
+| Size (0.2 × cm) | 0.40 |
+| Lymph nodes | 2 |
+| Histological grade | 2 |
+
+
+### 4
+
+Prognostic group: Poor (PPG)
+
+| Result details | |
+| --- | --- |
+| Size (0.2 × cm) | 0.50 |
+| Lymph nodes | 2 |
+| Histological grade | 3 |
+
+
+### 5
+
+Prognostic group: Very poor (VPG)
+
+| Result details | |
+| --- | --- |
+| Size (0.2 × cm) | 0.60 |
+| Lymph nodes | 3 |
+| Histological grade | 3 |
+

@@ -79,3 +79,62 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Gruppo prognostico: Eccellente (EPG)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Dimensione (0,2 × cm) | 0,30 |
+| Linfonodi | 1 |
+| Grado istologico | 1 |
+
+
+### 2
+
+Gruppo prognostico: Buono (GPG)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Dimensione (0,2 × cm) | 0,40 |
+| Linfonodi | 1 |
+| Grado istologico | 2 |
+
+
+### 3
+
+Gruppo prognostico: Moderato I (MPG I)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Dimensione (0,2 × cm) | 0,40 |
+| Linfonodi | 2 |
+| Grado istologico | 2 |
+
+
+### 4
+
+Gruppo prognostico: Scarso (PPG)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Dimensione (0,2 × cm) | 0,50 |
+| Linfonodi | 2 |
+| Grado istologico | 3 |
+
+
+### 5
+
+Gruppo prognostico: Molto scarso (VPG)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Dimensione (0,2 × cm) | 0,60 |
+| Linfonodi | 3 |
+| Grado istologico | 3 |
+

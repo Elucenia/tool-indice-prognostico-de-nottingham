@@ -1,0 +1,362 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "indice-prognostico-de-nottingham",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "5c47157aeee9a0152e03f6d40b3d629551c732a5",
+    "oldEngineSha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972",
+    "currentEngineSha256": "8a33450a28a257a8e8039e9eb91ccacbef6cce9f562749e4fd223926e93e4f14"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+      "input": {
+        "tam": 1.5,
+        "lnd": "1",
+        "grau": "1"
+      },
+      "publicOutput": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "2,30",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 2.3,
+          "grupo": "Excelente (EPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "npi": 2.3
+        },
+        "main": "2,30",
+        "level": "low",
+        "verdict": "Excelente"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2,30",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "level": "low",
+        "verdict": "Grupo prognóstico: Excelente (EPG)",
+        "rows": [
+          [
+            "Tamanho (0,2 × cm)",
+            "0,30"
+          ],
+          [
+            "Linfonodos",
+            "1"
+          ],
+          [
+            "Grau histológico",
+            "1"
+          ]
+        ],
+        "raw": {
+          "npi": 2.3,
+          "grupo": "Excelente (EPG)"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+      "input": {
+        "tam": 2,
+        "lnd": "1",
+        "grau": "2"
+      },
+      "publicOutput": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "3,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 3.4,
+          "grupo": "Bom (GPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "npi": 3.4
+        },
+        "level": "low",
+        "verdict": "Bom"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "level": "low",
+        "verdict": "Grupo prognóstico: Bom (GPG)",
+        "rows": [
+          [
+            "Tamanho (0,2 × cm)",
+            "0,40"
+          ],
+          [
+            "Linfonodos",
+            "1"
+          ],
+          [
+            "Grau histológico",
+            "2"
+          ]
+        ],
+        "raw": {
+          "npi": 3.4,
+          "grupo": "Bom (GPG)"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+      "input": {
+        "tam": 2,
+        "lnd": "2",
+        "grau": "2"
+      },
+      "publicOutput": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "4,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 4.4,
+          "grupo": "Moderado I (MPG I)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "npi": 4.4
+        },
+        "level": "mid",
+        "verdict": "Moderado I"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4,40",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "level": "mid",
+        "verdict": "Grupo prognóstico: Moderado I (MPG I)",
+        "rows": [
+          [
+            "Tamanho (0,2 × cm)",
+            "0,40"
+          ],
+          [
+            "Linfonodos",
+            "2"
+          ],
+          [
+            "Grau histológico",
+            "2"
+          ]
+        ],
+        "raw": {
+          "npi": 4.4,
+          "grupo": "Moderado I (MPG I)"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+      "input": {
+        "tam": 2.5,
+        "lnd": "2",
+        "grau": "3"
+      },
+      "publicOutput": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "5,50",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 5.5,
+          "grupo": "Ruim (PPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "npi": 5.5
+        },
+        "level": "high",
+        "verdict": "Ruim"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5,50",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "level": "high",
+        "verdict": "Grupo prognóstico: Ruim (PPG)",
+        "rows": [
+          [
+            "Tamanho (0,2 × cm)",
+            "0,50"
+          ],
+          [
+            "Linfonodos",
+            "2"
+          ],
+          [
+            "Grau histológico",
+            "3"
+          ]
+        ],
+        "raw": {
+          "npi": 5.5,
+          "grupo": "Ruim (PPG)"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+      "input": {
+        "tam": 3,
+        "lnd": "3",
+        "grau": "3"
+      },
+      "publicOutput": {
+        "id": "indice-prognostico-de-nottingham",
+        "main": [
+          "6,60",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "raw": {
+          "npi": 6.6,
+          "grupo": "Muito ruim (VPG)"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "npi": 6.6
+        },
+        "level": "high",
+        "verdict": "Muito ruim"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "6,60",
+          ""
+        ],
+        "label": "Índice Prognóstico de Nottingham",
+        "level": "high",
+        "verdict": "Grupo prognóstico: Muito ruim (VPG)",
+        "rows": [
+          [
+            "Tamanho (0,2 × cm)",
+            "0,60"
+          ],
+          [
+            "Linfonodos",
+            "3"
+          ],
+          [
+            "Grau histológico",
+            "3"
+          ]
+        ],
+        "raw": {
+          "npi": 6.6,
+          "grupo": "Muito ruim (VPG)"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

@@ -189,7 +189,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "NPI/Haybittle 1982/Galea 1992:0,2 tamanhocm+estádio nodal 1–3+grau 1–3",
-    "implementationVersion": "indice-prognostico-de-nottingham@native-2026-10-03+130a3d085088",
+    "implementationVersion": "indice-prognostico-de-nottingham@native-2026-10-05+8a33450a28a2",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2010939/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -319,7 +319,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+      "implementationHash": "8a33450a28a257a8e8039e9eb91ccacbef6cce9f562749e4fd223926e93e4f14",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "indice-prognostico-de-nottingham@native-2026-10-03+130a3d085088",
+          "previousImplementationHash": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972",
+          "implementationHash": "8a33450a28a257a8e8039e9eb91ccacbef6cce9f562749e4fd223926e93e4f14",
+          "scientificBodySha256": "c1d0510284d0fa5abe6c9830885efce78c2cbf6cc3f8f69010c423eb97fccdf1",
+          "metadataContractHash": "5829ce237ad4c011c3f441ec5b7c10538622619fc1c79d565ce8b26ebd714fde",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O NPI relaciona características anatomopatológicas do câncer primário de mama ao prognóstico. A soma requer estádio nodal e grau corretamente definidos; não determina tratamento atual nem garante sobrevivência individual. Fórmula, grupos e taxas devem corresponder à edição e à população utilizadas.",
     "sourceLimitEvidence": {
@@ -338,15 +366,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/indice-prognostico-de-nottingham/calculator.js",
-    "bytes": 5030,
-    "sha256": "130a3d085088c421833d15a17df1ab8ab937359dc0239f227b1a24460eb62972"
+    "bytes": 5235,
+    "sha256": "8a33450a28a257a8e8039e9eb91ccacbef6cce9f562749e4fd223926e93e4f14"
   },
-  "sourceToolSha256": "9ee04b1abb61ca1b2dfb876d3d9202161ac7e18a35aa72a920dc93cd2f47e756",
+  "sourceToolSha256": "dde35322e03c4e0915a51db4459f4105a16d0a150991b41c4242b1797878265d",
   "omittedFullReferenceBanks": [
     {
       "rows": 108,
       "sha256": "9eab8ae3d638616eeb32196e03bc876c77e3dbc96b95c8ed354687706a3b9ea7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

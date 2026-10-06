@@ -1,0 +1,3032 @@
+{
+  "id": "indice-prognostico-de-nottingham",
+  "implementationVersion": "indice-prognostico-de-nottingham@native-2026-10-05+8a33450a28a2",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamanho (0,2 × cm)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,30",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grau histológico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo prognóstico: Excelente (EPG)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamanho (0,2 × cm)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grau histológico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo prognóstico: Bom (GPG)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamanho (0,2 × cm)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grau histológico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo prognóstico: Moderado I (MPG I)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamanho (0,2 × cm)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,50",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grau histológico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo prognóstico: Ruim (PPG)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamanho (0,2 × cm)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,60",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grau histológico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo prognóstico: Muito ruim (VPG)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Size (0.2 × cm)",
+                "locale": "en",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.30",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymph nodes",
+                "locale": "en",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histological grade",
+                "locale": "en",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostic group: Excellent (EPG)",
+            "locale": "en",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Size (0.2 × cm)",
+                "locale": "en",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymph nodes",
+                "locale": "en",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histological grade",
+                "locale": "en",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostic group: Good (GPG)",
+            "locale": "en",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Size (0.2 × cm)",
+                "locale": "en",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymph nodes",
+                "locale": "en",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histological grade",
+                "locale": "en",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostic group: Moderate I (MPG I)",
+            "locale": "en",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Size (0.2 × cm)",
+                "locale": "en",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.50",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymph nodes",
+                "locale": "en",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histological grade",
+                "locale": "en",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostic group: Poor (PPG)",
+            "locale": "en",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Size (0.2 × cm)",
+                "locale": "en",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.60",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymph nodes",
+                "locale": "en",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histological grade",
+                "locale": "en",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostic group: Very poor (VPG)",
+            "locale": "en",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamaño (0,2 × cm)",
+                "locale": "es",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,30",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglios linfáticos",
+                "locale": "es",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado histológico",
+                "locale": "es",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo pronóstico: Excelente (EPG)",
+            "locale": "es",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamaño (0,2 × cm)",
+                "locale": "es",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglios linfáticos",
+                "locale": "es",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado histológico",
+                "locale": "es",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo pronóstico: Bueno (GPG)",
+            "locale": "es",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamaño (0,2 × cm)",
+                "locale": "es",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglios linfáticos",
+                "locale": "es",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado histológico",
+                "locale": "es",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo pronóstico: Moderado I (MPG I)",
+            "locale": "es",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamaño (0,2 × cm)",
+                "locale": "es",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,50",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglios linfáticos",
+                "locale": "es",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado histológico",
+                "locale": "es",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo pronóstico: Malo (PPG)",
+            "locale": "es",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Tamaño (0,2 × cm)",
+                "locale": "es",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,60",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglios linfáticos",
+                "locale": "es",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado histológico",
+                "locale": "es",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Grupo pronóstico: Muy malo (VPG)",
+            "locale": "es",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Taille (0,2 × cm)",
+                "locale": "fr",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,30",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglions lymphatiques",
+                "locale": "fr",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grade histologique",
+                "locale": "fr",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Groupe pronostique : Excellent (EPG)",
+            "locale": "fr",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Taille (0,2 × cm)",
+                "locale": "fr",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglions lymphatiques",
+                "locale": "fr",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grade histologique",
+                "locale": "fr",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Groupe pronostique : Bon (GPG)",
+            "locale": "fr",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Taille (0,2 × cm)",
+                "locale": "fr",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglions lymphatiques",
+                "locale": "fr",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grade histologique",
+                "locale": "fr",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Groupe pronostique : Modéré I (MPG I)",
+            "locale": "fr",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Taille (0,2 × cm)",
+                "locale": "fr",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,50",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglions lymphatiques",
+                "locale": "fr",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grade histologique",
+                "locale": "fr",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Groupe pronostique : Mauvais (PPG)",
+            "locale": "fr",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Taille (0,2 × cm)",
+                "locale": "fr",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,60",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ganglions lymphatiques",
+                "locale": "fr",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grade histologique",
+                "locale": "fr",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Groupe pronostique : Très mauvais (VPG)",
+            "locale": "fr",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Größe (0,2 × cm)",
+                "locale": "de",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,30",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymphknoten",
+                "locale": "de",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histologischer Grad",
+                "locale": "de",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognostische Gruppe: Exzellent (EPG)",
+            "locale": "de",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Größe (0,2 × cm)",
+                "locale": "de",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymphknoten",
+                "locale": "de",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histologischer Grad",
+                "locale": "de",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognosegruppe: Gut (GPG)",
+            "locale": "de",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Größe (0,2 × cm)",
+                "locale": "de",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymphknoten",
+                "locale": "de",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histologischer Grad",
+                "locale": "de",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognosegruppe: Mäßig I (MPG I)",
+            "locale": "de",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Größe (0,2 × cm)",
+                "locale": "de",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,50",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymphknoten",
+                "locale": "de",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histologischer Grad",
+                "locale": "de",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognosegruppe: Schlecht (PPG)",
+            "locale": "de",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Größe (0,2 × cm)",
+                "locale": "de",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,60",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lymphknoten",
+                "locale": "de",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Histologischer Grad",
+                "locale": "de",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Prognosegruppe: Sehr schlecht (VPG)",
+            "locale": "de",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Dimensione (0,2 × cm)",
+                "locale": "it",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,30",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodi",
+                "locale": "it",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado istologico",
+                "locale": "it",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gruppo prognostico: Eccellente (EPG)",
+            "locale": "it",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Dimensione (0,2 × cm)",
+                "locale": "it",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodi",
+                "locale": "it",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado istologico",
+                "locale": "it",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gruppo prognostico: Buono (GPG)",
+            "locale": "it",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Dimensione (0,2 × cm)",
+                "locale": "it",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,40",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodi",
+                "locale": "it",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado istologico",
+                "locale": "it",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gruppo prognostico: Moderato I (MPG I)",
+            "locale": "it",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Dimensione (0,2 × cm)",
+                "locale": "it",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,50",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodi",
+                "locale": "it",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado istologico",
+                "locale": "it",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gruppo prognostico: Scarso (PPG)",
+            "locale": "it",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Dimensione (0,2 × cm)",
+                "locale": "it",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0,60",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Linfonodi",
+                "locale": "it",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Grado istologico",
+                "locale": "it",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gruppo prognostico: Molto scarso (VPG)",
+            "locale": "it",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحجم (0,2 × cm)",
+                "locale": "ar",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "٠٫٣٠",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "العُقَد اللمفاوية",
+                "locale": "ar",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الدرجة النسيجية",
+                "locale": "ar",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "المجموعة الإنذارية: ممتازة (EPG)",
+            "locale": "ar",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحجم (0,2 × cm)",
+                "locale": "ar",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "٠٫٤٠",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "العُقَد اللمفاوية",
+                "locale": "ar",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "١",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الدرجة النسيجية",
+                "locale": "ar",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "المجموعة الإنذارية: جيد (GPG)",
+            "locale": "ar",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحجم (0,2 × cm)",
+                "locale": "ar",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "٠٫٤٠",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "العُقَد اللمفاوية",
+                "locale": "ar",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الدرجة النسيجية",
+                "locale": "ar",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "المجموعة الإنذارية: متوسط I (MPG I)",
+            "locale": "ar",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحجم (0,2 × cm)",
+                "locale": "ar",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "٠٫٥٠",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "العُقَد اللمفاوية",
+                "locale": "ar",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "٢",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الدرجة النسيجية",
+                "locale": "ar",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "المجموعة الإنذارية: سيئ (PPG)",
+            "locale": "ar",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحجم (0,2 × cm)",
+                "locale": "ar",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "٠٫٦٠",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "العُقَد اللمفاوية",
+                "locale": "ar",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الدرجة النسيجية",
+                "locale": "ar",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "المجموعة الإنذارية: سيئ جدًا (VPG)",
+            "locale": "ar",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大小（0.2 × cm）",
+                "locale": "zh",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.30",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "淋巴结",
+                "locale": "zh",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "组织学分级",
+                "locale": "zh",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "预后组：极佳（EPG）",
+            "locale": "zh",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大小（0.2 × cm）",
+                "locale": "zh",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "淋巴结",
+                "locale": "zh",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "组织学分级",
+                "locale": "zh",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "预后组：良好（GPG）",
+            "locale": "zh",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大小（0.2 × cm）",
+                "locale": "zh",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "淋巴结",
+                "locale": "zh",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "组织学分级",
+                "locale": "zh",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "预后组：中等 I（MPG I）",
+            "locale": "zh",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大小（0.2 × cm）",
+                "locale": "zh",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.50",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "淋巴结",
+                "locale": "zh",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "组织学分级",
+                "locale": "zh",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "预后组：差（PPG）",
+            "locale": "zh",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大小（0.2 × cm）",
+                "locale": "zh",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.60",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "淋巴结",
+                "locale": "zh",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "组织学分级",
+                "locale": "zh",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "预后组：很差（VPG）",
+            "locale": "zh",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大きさ（0.2 × cm）",
+                "locale": "ja",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.30",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "リンパ節",
+                "locale": "ja",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "組織学的グレード",
+                "locale": "ja",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "予後群：優良（EPG）",
+            "locale": "ja",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大きさ（0.2 × cm）",
+                "locale": "ja",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "リンパ節",
+                "locale": "ja",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "組織学的グレード",
+                "locale": "ja",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "予後群：良好（GPG）",
+            "locale": "ja",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大きさ（0.2 × cm）",
+                "locale": "ja",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "リンパ節",
+                "locale": "ja",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "組織学的グレード",
+                "locale": "ja",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "予後群：中等 I（MPG I）",
+            "locale": "ja",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大きさ（0.2 × cm）",
+                "locale": "ja",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.50",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "リンパ節",
+                "locale": "ja",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "組織学的グレード",
+                "locale": "ja",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "予後群：不良（PPG）",
+            "locale": "ja",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "大きさ（0.2 × cm）",
+                "locale": "ja",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.60",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "リンパ節",
+                "locale": "ja",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "組織学的グレード",
+                "locale": "ja",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "予後群：非常に不良（VPG）",
+            "locale": "ja",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "1,5 cm, linfonodos negativos, grau 1: 0,3 + 1 + 1 = 2,3 (excelente)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आकार (0.2 × cm)",
+                "locale": "hi",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.30",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "लसीका ग्रंथियाँ",
+                "locale": "hi",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "ऊतकवैज्ञानिक ग्रेड",
+                "locale": "hi",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूर्वानुमान समूह: उत्कृष्ट (EPG)",
+            "locale": "hi",
+            "template": "documented-authored-2c856a68e08ac102e3b0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, negativos, grau 2: 0,4 + 1 + 2 = 3,4 (bom, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आकार (0.2 × cm)",
+                "locale": "hi",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "लसीका ग्रंथियाँ",
+                "locale": "hi",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "1",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "ऊतकवैज्ञानिक ग्रेड",
+                "locale": "hi",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूर्वानुमान समूह: अच्छा (GPG)",
+            "locale": "hi",
+            "template": "documented-authored-bbaff13bf9d1f4868a62"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "2,0 cm, 1 a 3 linfonodos, grau 2: 0,4 + 2 + 2 = 4,4 (moderado I, limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आकार (0.2 × cm)",
+                "locale": "hi",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.40",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "लसीका ग्रंथियाँ",
+                "locale": "hi",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "ऊतकवैज्ञानिक ग्रेड",
+                "locale": "hi",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूर्वानुमान समूह: मध्यम I (MPG I)",
+            "locale": "hi",
+            "template": "documented-authored-c011baaaf2f26939c2f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "2,5 cm, 1 a 3 linfonodos, grau 3: 0,5 + 2 + 3 = 5,5 (ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आकार (0.2 × cm)",
+                "locale": "hi",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.50",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "लसीका ग्रंथियाँ",
+                "locale": "hi",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "2",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "ऊतकवैज्ञानिक ग्रेड",
+                "locale": "hi",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूर्वानुमान समूह: खराब (PPG)",
+            "locale": "hi",
+            "template": "documented-authored-a7453aa1e4f02fe07f57"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "3,0 cm, 4 ou mais linfonodos, grau 3: 0,6 + 3 + 3 = 6,6 (muito ruim)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आकार (0.2 × cm)",
+                "locale": "hi",
+                "template": "documented-authored-7c666b64287bac3cc704"
+              },
+              "value": {
+                "text": "0.60",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "लसीका ग्रंथियाँ",
+                "locale": "hi",
+                "template": "documented-authored-59a24ccc0df088a7e22f"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "ऊतकवैज्ञानिक ग्रेड",
+                "locale": "hi",
+                "template": "documented-authored-8903d9351b681bceca9a"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-d57df4c262d4475d5135",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूर्वानुमान समूह: बहुत खराब (VPG)",
+            "locale": "hi",
+            "template": "documented-authored-54a7e6e8e0d15725ec25"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

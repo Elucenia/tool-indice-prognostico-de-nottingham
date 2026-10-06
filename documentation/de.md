@@ -79,3 +79,62 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Prognostische Gruppe: Exzellent (EPG)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Größe (0,2 × cm) | 0,30 |
+| Lymphknoten | 1 |
+| Histologischer Grad | 1 |
+
+
+### 2
+
+Prognosegruppe: Gut (GPG)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Größe (0,2 × cm) | 0,40 |
+| Lymphknoten | 1 |
+| Histologischer Grad | 2 |
+
+
+### 3
+
+Prognosegruppe: Mäßig I (MPG I)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Größe (0,2 × cm) | 0,40 |
+| Lymphknoten | 2 |
+| Histologischer Grad | 2 |
+
+
+### 4
+
+Prognosegruppe: Schlecht (PPG)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Größe (0,2 × cm) | 0,50 |
+| Lymphknoten | 2 |
+| Histologischer Grad | 3 |
+
+
+### 5
+
+Prognosegruppe: Sehr schlecht (VPG)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Größe (0,2 × cm) | 0,60 |
+| Lymphknoten | 3 |
+| Histologischer Grad | 3 |
+

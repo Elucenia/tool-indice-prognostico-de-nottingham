@@ -79,3 +79,62 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Grupo pronóstico: Excelente (EPG)
+
+| Detalles del resultado | |
+| --- | --- |
+| Tamaño (0,2 × cm) | 0,30 |
+| Ganglios linfáticos | 1 |
+| Grado histológico | 1 |
+
+
+### 2
+
+Grupo pronóstico: Bueno (GPG)
+
+| Detalles del resultado | |
+| --- | --- |
+| Tamaño (0,2 × cm) | 0,40 |
+| Ganglios linfáticos | 1 |
+| Grado histológico | 2 |
+
+
+### 3
+
+Grupo pronóstico: Moderado I (MPG I)
+
+| Detalles del resultado | |
+| --- | --- |
+| Tamaño (0,2 × cm) | 0,40 |
+| Ganglios linfáticos | 2 |
+| Grado histológico | 2 |
+
+
+### 4
+
+Grupo pronóstico: Malo (PPG)
+
+| Detalles del resultado | |
+| --- | --- |
+| Tamaño (0,2 × cm) | 0,50 |
+| Ganglios linfáticos | 2 |
+| Grado histológico | 3 |
+
+
+### 5
+
+Grupo pronóstico: Muy malo (VPG)
+
+| Detalles del resultado | |
+| --- | --- |
+| Tamaño (0,2 × cm) | 0,60 |
+| Ganglios linfáticos | 3 |
+| Grado histológico | 3 |
+

@@ -79,3 +79,62 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Grupo prognóstico: Excelente (EPG)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Tamanho (0,2 × cm) | 0,30 |
+| Linfonodos | 1 |
+| Grau histológico | 1 |
+
+
+### 2
+
+Grupo prognóstico: Bom (GPG)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Tamanho (0,2 × cm) | 0,40 |
+| Linfonodos | 1 |
+| Grau histológico | 2 |
+
+
+### 3
+
+Grupo prognóstico: Moderado I (MPG I)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Tamanho (0,2 × cm) | 0,40 |
+| Linfonodos | 2 |
+| Grau histológico | 2 |
+
+
+### 4
+
+Grupo prognóstico: Ruim (PPG)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Tamanho (0,2 × cm) | 0,50 |
+| Linfonodos | 2 |
+| Grau histológico | 3 |
+
+
+### 5
+
+Grupo prognóstico: Muito ruim (VPG)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Tamanho (0,2 × cm) | 0,60 |
+| Linfonodos | 3 |
+| Grau histológico | 3 |
+
